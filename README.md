@@ -12,7 +12,7 @@
 
 ## How to reproduce the issue?
 
-First of all make sure the initial deploy you are using the SST version `3.1.29`, then execute:
+First of all make sure for the initial deploy you are using the SST version: `3.1.29`, then execute:
 
 1. `cd sst`
 2. `pnpm sst deploy --stage dev`
