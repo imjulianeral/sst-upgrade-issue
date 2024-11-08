@@ -3,7 +3,7 @@
 ## Context
 
 - This is a repo with the minimal reproduction to the [reported issue](https://github.com/sst/sst/issues/4989).
-- The folder structure is because it imitates my private repo which has been migrated from using CDK to SST but the folder structure hasn't changed because is an pretty large repo.
+- The folder structure is this way because it imitates my private repo which has been migrated from using CDK to SST but the folder structure hasn't changed because is an pretty large repo.
 
 ## Requirements to reproduce the issue.
 
