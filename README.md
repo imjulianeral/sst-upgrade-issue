@@ -23,6 +23,6 @@ First of all make sure the initial deploy you are using the SST version `3.1.29`
 
    - The lambda's code is was not deployed.
    - If you publish another event from the SNS topic you'll get an execution error.
-   - After then minutes you'll see the las deploy in the fargate console was not successful, triggering a new deploy or a rollback, the load balancer loggroup can't be fetched and the service is down indefinitely.
+   - After 10 minutes you'll see the las deploy in the fargate console was not successful, triggering a new deploy or a rollback, the load balancer loggroup can't be fetched and the service is down indefinitely.
 
 Also you can use the new SNS `subscribe` syntax and use the new `loadBalancer` prop in the service config but the issue remains.
